@@ -1,0 +1,33 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 98vw;
+  height: 97vh;
+}
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.itemBar {
+  border: 1px solid black;
+  border-radius: 12px;
+  width: 200px;
+  padding: 5px;
+  margin: 10px;
+  background-color: slateblue;
+}
+.itemBar:hover {
+  background-color: white;
+}
+.main {
+  display: block;
+  width: 40vw;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.input {
+  display: block;
+}
